@@ -1,3 +1,11 @@
+:root{
+    /* CSS HSL */
+--chamoisee: hsla(33, 24%, 46%, 1);
+--caf-noir: hsla(32, 54%, 19%, 1);
+--drab-dark-brown: hsla(64, 61%, 13%, 1);
+--bistre: hsla(33, 59%, 10%, 1);
+--walnut-brown: hsla(37, 15%, 28%, 1);
+}
 body {
     background-color: black;
 color:rgb(255, 255, 255)
@@ -6,3 +14,31 @@ h2 {
      color: rgb(253, 253, 114); 
 text-decoration: underline;
 }
+.main-header
+{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   background-color: var(--drab-dark-brown);
+}
+#SITE-LOGO
+{
+    max-width: 120px;
+}
+/*
+#Home{
+    width: 28px;
+ 
+}
+ 
+#Contact
+{
+    width: 25px;
+ 
+}
+#logo{
+    max-width: 1oopx;
+    margin: auto;
+    display: block;
+}
+    */
